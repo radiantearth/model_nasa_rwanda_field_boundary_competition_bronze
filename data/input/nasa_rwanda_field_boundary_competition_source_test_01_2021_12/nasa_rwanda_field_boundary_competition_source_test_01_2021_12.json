@@ -1,0 +1,267 @@
+{
+    "id": "nasa_rwanda_field_boundary_competition_source_test_01_2021_12",
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "collection": "nasa_rwanda_field_boundary_competition_source_test",
+    "links": [
+        {
+            "rel": "collection",
+            "href": "../collection.json"
+        },
+        {
+            "rel": "root",
+            "href": "../../catalog.json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json"
+        },
+        {
+            "rel": "self",
+            "href": "nasa_rwanda_field_boundary_competition_source_test_01_2021_12.json"
+        },
+        {
+            "rel": "source",
+            "href": "../nasa_rwanda_field_boundary_competition_source_test_01_2021_10/nasa_rwanda_field_boundary_competition_source_test_01_2021_10.json"
+        },
+        {
+            "rel": "source",
+            "href": "../nasa_rwanda_field_boundary_competition_source_test_01_2021_11/nasa_rwanda_field_boundary_competition_source_test_01_2021_11.json"
+        },
+        {
+            "rel": "source",
+            "href": "../nasa_rwanda_field_boundary_competition_source_test_01_2021_04/nasa_rwanda_field_boundary_competition_source_test_01_2021_04.json"
+        },
+        {
+            "rel": "source",
+            "href": "../nasa_rwanda_field_boundary_competition_source_test_01_2021_03/nasa_rwanda_field_boundary_competition_source_test_01_2021_03.json"
+        },
+        {
+            "rel": "source",
+            "href": "nasa_rwanda_field_boundary_competition_source_test_01_2021_12.json"
+        },
+        {
+            "rel": "source",
+            "href": "../nasa_rwanda_field_boundary_competition_source_test_01_2021_08/nasa_rwanda_field_boundary_competition_source_test_01_2021_08.json"
+        }
+    ],
+    "properties": {
+        "datetime": null,
+        "start_datetime": "2021-12-01T00:00:00Z",
+        "end_datetime": "2021-12-31T23:59:59Z",
+        "instruments": [
+            "ps2.sd"
+        ],
+        "constellation": "planetscope",
+        "proj:epsg": 3857,
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        3386733.630281327,
+                        -162304.47490623462
+                    ],
+                    [
+                        3386733.630281327,
+                        -161081.48245384166
+                    ],
+                    [
+                        3385510.637828934,
+                        -161081.48245384166
+                    ],
+                    [
+                        3385510.637828934,
+                        -162304.47490623462
+                    ],
+                    [
+                        3386733.630281327,
+                        -162304.47490623462
+                    ]
+                ]
+            ]
+        },
+        "platform": "planetscope",
+        "mission": "planetscope",
+        "gsd": 4,
+        "eo:bands": [
+            {
+                "name": "B01",
+                "common_name": "blue",
+                "description": "Blue (0.464-0.517\u00b5m)",
+                "center_wavelength": 0.491
+            },
+            {
+                "name": "B02",
+                "common_name": "green",
+                "description": "Green (0.547-0.585\u00b5m)",
+                "center_wavelength": 0.566
+            },
+            {
+                "name": "B03",
+                "common_name": "red",
+                "description": "Red (0.650-0.682\u00b5m)",
+                "center_wavelength": 0.666
+            },
+            {
+                "name": "B04",
+                "common_name": "nir",
+                "description": "Near Infrared (0.846-0.888\u00b5m)",
+                "center_wavelength": 0.867
+            }
+        ]
+    },
+    "assets": {
+        "B01": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/nasa_rwanda_field_boundary_competition/source/test/2021_12/01_B01.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+                "data",
+                "reflectance"
+            ],
+            "storage:platform": "AZURE",
+            "storage:region": "westeurope",
+            "storage:requester_pays": false,
+            "storage:tier": "hot",
+            "raster:bands": [
+                {
+                    "nodata": "nan",
+                    "data_type": "uint16",
+                    "spatial_resolution": 4.77731426716,
+                    "name": "blue"
+                }
+            ],
+            "eo:bands": [
+                {
+                    "name": "B01",
+                    "common_name": "blue",
+                    "description": "Blue (0.464-0.517\u00b5m)",
+                    "center_wavelength": 0.491
+                }
+            ]
+        },
+        "B02": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/nasa_rwanda_field_boundary_competition/source/test/2021_12/01_B02.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+                "data",
+                "reflectance"
+            ],
+            "storage:platform": "AZURE",
+            "storage:region": "westeurope",
+            "storage:requester_pays": false,
+            "storage:tier": "hot",
+            "raster:bands": [
+                {
+                    "nodata": "nan",
+                    "data_type": "uint16",
+                    "spatial_resolution": 4.77731426716,
+                    "name": "green"
+                }
+            ],
+            "eo:bands": [
+                {
+                    "name": "B02",
+                    "common_name": "green",
+                    "description": "Green (0.547-0.585\u00b5m)",
+                    "center_wavelength": 0.566
+                }
+            ]
+        },
+        "B03": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/nasa_rwanda_field_boundary_competition/source/test/2021_12/01_B03.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+                "data",
+                "reflectance"
+            ],
+            "storage:platform": "AZURE",
+            "storage:region": "westeurope",
+            "storage:requester_pays": false,
+            "storage:tier": "hot",
+            "raster:bands": [
+                {
+                    "nodata": "nan",
+                    "data_type": "uint16",
+                    "spatial_resolution": 4.77731426716,
+                    "name": "red"
+                }
+            ],
+            "eo:bands": [
+                {
+                    "name": "B03",
+                    "common_name": "red",
+                    "description": "Red (0.650-0.682\u00b5m)",
+                    "center_wavelength": 0.666
+                }
+            ]
+        },
+        "B04": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/nasa_rwanda_field_boundary_competition/source/test/2021_12/01_B04.tif",
+            "type": "image/tiff; application=geotiff",
+            "roles": [
+                "data",
+                "reflectance"
+            ],
+            "storage:platform": "AZURE",
+            "storage:region": "westeurope",
+            "storage:requester_pays": false,
+            "storage:tier": "hot",
+            "raster:bands": [
+                {
+                    "nodata": "nan",
+                    "data_type": "uint16",
+                    "spatial_resolution": 4.77731426716,
+                    "name": "nir"
+                }
+            ],
+            "eo:bands": [
+                {
+                    "name": "B04",
+                    "common_name": "nir",
+                    "description": "Near Infrared (0.846-0.888\u00b5m)",
+                    "center_wavelength": 0.867
+                }
+            ]
+        }
+    },
+    "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/storage/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json"
+    ],
+    "bbox": [
+        30.41255950510961,
+        -1.457848575076877,
+        30.423545833233085,
+        -1.446865776370556
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    30.423545833233085,
+                    -1.457848575076877
+                ],
+                [
+                    30.423545833233085,
+                    -1.446865776370556
+                ],
+                [
+                    30.41255950510961,
+                    -1.446865776370556
+                ],
+                [
+                    30.41255950510961,
+                    -1.457848575076877
+                ],
+                [
+                    30.423545833233085,
+                    -1.457848575076877
+                ]
+            ]
+        ]
+    }
+}

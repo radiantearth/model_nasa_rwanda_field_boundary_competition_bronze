@@ -1,0 +1,15 @@
+version: "1"
+services:
+
+  model_nasa_rwanda_field_boundary_competition_bronze_v1:
+    image: radiantearth/model_nasa_rwanda_field_boundary_competition_bronze:1
+    volumes:
+      - "${INPUT_DATA}:/opt/radiant/docker-solution/data/input"
+      - "${OUTPUT_DATA}:/opt/radiant/docker-solution/data/output"
+      - "${MODELS_DIR}:/opt/radiant/docker-solution/models"
+      - "${WORKSPACE_DIR}:/opt/radiant/docker-solution/workspace"
+    environment:
+      - INPUT_DATA=/opt/radiant/docker-solution/data/input
+      - OUTPUT_DATA=/opt/radiant/docker-solution/data/output
+      - MODELS_DIR=/opt/radiant/docker-solution/models
+      - WORKSPACE_DIR=/opt/radiant/docker-solution/workspace
