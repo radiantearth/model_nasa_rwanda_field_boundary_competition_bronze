@@ -1,0 +1,22 @@
+# Please download all trained models at https://www.kaggle.com/datasets/truonghoang/nasa-hr
+# And put them in the models folder
+{
+	"m1": {
+		"model_folder": "UnetPlusPlus_timm-efficientnet-l2_tta",
+		"encoder": "timm-efficientnet-l2",
+		"decoder": "UnetPlusPlus",
+		"encoder_weights": "noisy-student"
+	},
+	"m2": {
+		"model_folder": "UnetPlusPlus_timm-efficientnet-l2_ttascse",
+		"encoder": "timm-efficientnet-l2",
+		"decoder": "UnetPlusPlus",
+		"encoder_weights": "noisy-student"
+	},
+	"m3": {
+		"model_folder": "UnetPlusPlus_timm-efficientnet-l2_ttascsepa",
+		"encoder": "timm-efficientnet-l2",
+		"decoder": "UnetPlusPlus",
+		"encoder_weights": "noisy-student"
+	}
+}

@@ -36,9 +36,11 @@ for model_name in models_json.keys():
 	encoder = model_info["encoder"]
 	decoder = model_info["decoder"]
 	encoder_weights = model_info["encoder_weights"]
+	model_folder = model_info["model_folder"]
 
 	output_filename = run_inference(
 		model_name=model_name,
+		model_folder=model_folder,
 		encoder=encoder,
 		decoder=decoder,
 		encoder_weights=encoder_weights,

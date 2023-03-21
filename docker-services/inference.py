@@ -289,7 +289,8 @@ def run_inference(
 
     test_source_items = input_dir
 
-    model_path = f"{models_dir}/{model_folder}/{decoder}_{encoder}"
+    #model_path = f"{models_dir}/{model_folder}/{decoder}_{encoder}"
+    model_path = f"{models_dir}/{model_folder}"
     output_filename = f"{output_dir}/harvest_pred_{model_name}.csv"
 
     set_seed(SEED)
