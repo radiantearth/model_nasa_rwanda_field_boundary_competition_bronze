@@ -1,0 +1,20 @@
+{
+	"m1": {
+		"model_folder": "m1",
+		"encoder": "efficientnet-b0",
+		"decoder": "UnetPlusPlus",
+		"encoder_weights": "imagenet"
+	},
+	"m2": {
+		"model_folder": "m1",
+		"encoder": "efficientnet-b0",
+		"decoder": "UnetPlusPlus",
+		"encoder_weights": "imagenet"
+	},
+	"m3": {
+		"model_folder": "m1",
+		"encoder": "efficientnet-b0",
+		"decoder": "UnetPlusPlus",
+		"encoder_weights": "imagenet"
+	}
+}
