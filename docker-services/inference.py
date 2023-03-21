@@ -4,7 +4,6 @@
 import glob, os, pickle, random, shutil, time, gc
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 # import getpass
@@ -12,7 +11,7 @@ import rasterio as rio
 
 from tqdm import tqdm
 from pathlib import Path
-from radiant_mlhub import Dataset as rmd
+
 from random import choice
 from scipy.ndimage import gaussian_filter
 from sklearn.model_selection import train_test_split
@@ -169,7 +168,9 @@ def build_model(encoder, decoder, encoder_weights="imagenet"):
 
 def load_model(encoder, decoder, path):
     model = build_model(encoder, decoder)
-    model.load_state_dict(torch.load(path))
+    model.to(device)
+    model.load_state_dict(torch.load(path, map_location=torch.device(device)))
+    model.to(device)
     model.eval()
     return model
 

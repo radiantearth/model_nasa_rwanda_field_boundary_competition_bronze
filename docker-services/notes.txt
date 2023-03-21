@@ -1,0 +1,6 @@
+export INPUT_DATA="/opt/radiant/data/input"
+export OUTPUT_DATA="/opt/radiant/data/output"
+export MODELS_DIR="/opt/radiant/models"
+export WORKSPACE_DIR="/opt/radiant/workspace"
+
+docker-compose up model_nasa_rwanda_field_boundary_competition_bronze_v1

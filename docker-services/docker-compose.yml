@@ -1,4 +1,4 @@
-version: "1"
+version: "2"
 services:
 
   model_nasa_rwanda_field_boundary_competition_bronze_v1:
