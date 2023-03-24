@@ -12,9 +12,13 @@ This submission was mode on behalf of team `borderline` in the `NASA Harvest Fie
 ## Creators
 This solution was a team effort by team borderline with members
 
- - Hoang Van Truong [LinkedIn](https://www.linkedin.com/in/hoang-van-truong/)
- - Tien Dung Le [GitHub](https://github.com/tien2020le2020)
- - Michiel George Ferreira [LinkedIn](https://www.linkedin.com/in/mg-ferreira-35534)
+ - Hoang Van Truong - [LinkedIn](https://www.linkedin.com/in/hoang-van-truong/)
+ - Tien Dung Le - [GitHub](https://github.com/tien2020le2020)
+ - Michiel George Ferreira - [LinkedIn](https://www.linkedin.com/in/mg-ferreira-35534)
+
+## Contact
+
+Use LinkedIn or GitHub to message.
 
 ## Citation
 Van Truong H., Dung T. And Ferreira M.G. \"Borderline: a segmentation model for fields\", Version 1.0, Radiant MLHub. [Date Accessed] Radiant MLHub <https://doi.org/10.34911/rdnt.0imvwz>
@@ -120,6 +124,14 @@ These models were optimised using A10's GPU infrastructure.
  - 24G NVIDIA GPU
 
 It will take a few hours to run.
+
+## Learning Approach
+
+- Supervised
+
+## Prediction Type
+
+- Segmentation
 
 ## Preprocessing
 
