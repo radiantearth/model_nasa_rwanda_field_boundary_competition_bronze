@@ -9,11 +9,19 @@ This documents the following submission
 
 This submission was mode on behalf of team `borderline` in the `NASA Harvest Field Boundary Detection Challenge` and placed third on the private leaderboard.
 
+## Creators
 This solution was a team effort by team borderline with members
 
- - Hoang Van Truong
- - Tien Dung Le
- - Michiel George Ferreira
+ - Hoang Van Truong [LinkedIn](https://www.linkedin.com/in/hoang-van-truong/)
+ - Tien Dung Le [GitHub](https://github.com/tien2020le2020)
+ - Michiel George Ferreira [LinkedIn](https://www.linkedin.com/in/mg-ferreira-35534)
+
+## Citation
+Van Truong H., Dung T. And Ferreira M.G. \"Borderline: a segmentation model for fields\", Version 1.0, Radiant MLHub. [Date Accessed] Radiant MLHub <https://doi.org/10.34911/rdnt.0imvwz>
+
+## License
+
+[CC-BY-4.0](../LICENSE)
 
 ## Environment
 
