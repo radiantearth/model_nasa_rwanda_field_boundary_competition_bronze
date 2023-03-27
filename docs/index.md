@@ -21,7 +21,7 @@ This solution was a team effort by team borderline with members
 Use LinkedIn to message.
 
 ## Citation
-Van Truong H., Dung T. And Ferreira M.G. \"Borderline: a segmentation model for fields\", Version 1.0, Radiant MLHub. [Date Accessed] Radiant MLHub <https://doi.org/10.34911/rdnt.0imvwz>
+Van Truong H., Dung T. And Ferreira M.G. \"Harvest Ensemble Segmentation Model for Fields\", Version 1.0, Radiant MLHub. [Date Accessed] Radiant MLHub <https://doi.org/10.34911/rdnt.49rmmy>
 
 ## License
 
