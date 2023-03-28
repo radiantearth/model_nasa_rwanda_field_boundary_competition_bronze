@@ -7,7 +7,7 @@ This documents the following submission
  - Comment: `5e pre 29`
  - Submitted: `26 February 23:41`
 
-This submission was mode on behalf of team `borderline` in the `NASA Harvest Field Boundary Detection Challenge` and placed third on the private leaderboard.
+This submission was made on behalf of team `borderline` in the `NASA Harvest Field Boundary Detection Challenge` and placed third on the private leaderboard.
 
 ## Creators
 This solution was a team effort by team borderline with members
